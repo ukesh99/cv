@@ -1,0 +1,26 @@
+p{
+    color: red
+}
+li{
+    list-style-type: disc;
+}
+.special{
+    color: green;
+    font-weight: bold;
+}
+li em{ 
+    color: purple;
+}
+h1+p{ 
+    font-size: 150%;
+}
+a:hover
+{
+    color: blue;
+    text-decoration: none;
+}
+body h2+p .special{
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+}
